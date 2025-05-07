@@ -1,3 +1,7 @@
+-- CSY1065 AS2 Group 4: Drop
+-- Done By Junyo, Natnael, Warren, Yameen
+
+-- Dropping Foreign Key Constraints
 
 ALTER TABLE surgeries
 DROP CONSTRAINT fk_s_branches;

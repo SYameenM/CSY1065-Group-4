@@ -1,3 +1,7 @@
+-- CSY1065 AS2 Group 4: Create Login
+-- Done By Junyo, Natnael, Warren, Yameen
+
+-- Creating Tables
 
 CREATE TABLE branches (
 branch_id NUMBER(3),
