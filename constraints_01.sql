@@ -1,7 +1,4 @@
--- CSY1065 AS2 Group 4: Constraints
--- Done By Junyo, Natnael, Warren, Yameen
 
--- Adding Primary Key Constraints
 
 ALTER TABLE branches
 ADD CONSTRAINT pk_branches
