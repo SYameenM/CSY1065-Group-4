@@ -1,3 +1,6 @@
+-- CSY1065 AS2 Group 4: Constraints
+-- Done By Junyo, Natnael, Warren, Yameen
+
 -- Adding Primary Key Constraints
 
 ALTER TABLE branches
@@ -39,7 +42,6 @@ PRIMARY KEY (medication_id);
 ALTER TABLE prescriptions
 ADD CONSTRAINT pk_prescriptions
 PRIMARY KEY (medication_id, pet_number);
-
 
 -- Adding Foreign Key Constraints
 
@@ -93,7 +95,6 @@ ADD CONSTRAINT fk_p_animals
 FOREIGN KEY (pet_number)
 REFERENCES animals (pet_number);
 
-
 -- Commiting
 
 COMMIT;
@@ -113,4 +114,10 @@ FROM USER_CONSTRAINT;
 
 --Deletes the table
 DROP TABLE table_name;
+*/
+
+-- To do list --
+
+/*
+- checks maybe
 */

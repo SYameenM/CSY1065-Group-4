@@ -1,3 +1,6 @@
+-- CSY1065 AS2 Group 4: Drop
+-- Done By Junyo, Natnael, Warren, Yameen
+
 -- Dropping Foreign Key Constraints
 
 ALTER TABLE surgeries
@@ -29,7 +32,6 @@ DROP CONSTRAINT fk_p_medications;
 
 ALTER TABLE prescriptions
 DROP CONSTRAINT fk_p_animals;
-
 
 -- Dropping Primary Key Constraints
 
@@ -63,7 +65,6 @@ DROP CONSTRAINT pk_medications;
 ALTER TABLE prescriptions
 DROP CONSTRAINT pk_prescriptions;
 
-
 -- Dropping Tables
 
 DROP TABLE prescriptions;
@@ -76,7 +77,6 @@ DROP TABLE animals;
 DROP TABLE vets;
 DROP TABLE surgeries;
 DROP TABLE branches;
-
 
 -- Purging Tables And Committing
 
@@ -99,4 +99,11 @@ FROM USER_CONSTRAINT;
 
 --Deletes the table
 DROP TABLE table_name;
+*/
+
+-- To do list --
+
+/*
+- drop sequences?
+-
 */

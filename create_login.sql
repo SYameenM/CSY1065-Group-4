@@ -1,3 +1,8 @@
+-- CSY1065 AS2 Group 4: Create Login
+-- Done By Junyo, Natnael, Warren, Yameen
+
+-- Creating Tables
+
 CREATE TABLE branches (
 branch_id NUMBER(3),
 branch_name VARCHAR(25),
@@ -96,4 +101,10 @@ FROM USER_CONSTRAINT;
 
 --Deletes the table
 DROP TABLE table_name;
+*/
+
+
+-- To do list: --
+/*
+- Add sequences
 */

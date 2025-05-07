@@ -1,3 +1,6 @@
+-- CSY1065 AS2 Group 4: Inserts
+-- Done By Junyo, Natnael, Warren, Yameen
+
 INSERT INTO branches (branch_id, branch_name, house, street, postcode, rating)
 VALUES (1, 'NORTHAMPTON BRANCH', 'WATERSIDE CAMPUS', 'UNIVERSITY DRIVE', 'NN1 5PH', 'A');
 
